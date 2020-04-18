@@ -54,7 +54,6 @@
             ></v-select>
             <v-text-field
               dense
-              :items="items"
               :value="delimeter"
               v-model="delimeter"
               label="Enter character to split"
@@ -75,8 +74,8 @@
             <v-data-table
               :headers="headers"
               :items="tableData"
-              disable-sort="true"
-              items-per-page=50
+              :disable-sort="true"
+              :items-per-page="50"
               class="elevation-1"
             >
             
@@ -180,6 +179,7 @@ import downloadexcel from "vue-json-excel";
 
         })
         this.tableData = newTableData
+        alert("Done")
       },
       fileInputed: function(file) {
         

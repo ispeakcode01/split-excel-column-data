@@ -13,7 +13,7 @@
       <v-spacer></v-spacer>
 
       <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
+        href="https://github.com/Codenert/split-excel-column-data"
         target="_blank"
         text
       >
@@ -25,7 +25,7 @@
     <v-content dark>
       <div class="py-2"></div>
 
-      <HelloWorld/>
+      <Home/>
       <div class="py-8"></div>
     </v-content>
     <v-footer
@@ -45,13 +45,13 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import Home from './components/Home';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    Home,
   },
 
   data: () => ({
