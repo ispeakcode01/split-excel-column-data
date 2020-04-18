@@ -12,7 +12,6 @@
     "read-excel-file": "^4.0.6",
     "vue": "^2.6.11",
     "vue-json-excel": "^0.2.98",
-    "vue-worker": "^1.2.1",
     "vuetify": "^2.2.11"
   },
   "devDependencies": {
