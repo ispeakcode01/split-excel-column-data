@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.4",
-    "read-excel-file": "^4.0.6",
+    "read-excel-file": "^5.5.1",
     "vue": "^2.6.11",
     "vue-json-excel": "^0.2.98",
     "vuetify": "^2.2.11"
